@@ -2,6 +2,7 @@ const Header = () => {
     return (
         <div>
             <div className="headerspace">
+                <div className="logo"></div>
                 <div classname="navspace">
                     <div>기능소개</div>
                     <div>가격정책</div>
