@@ -1,7 +1,10 @@
 const Footer = () => {
     return(
         <div>
-            Footer 입니다.
+            <div className="footerspace">
+                <div className="footerlogo"></div>
+                <div className="footernav"></div>
+            </div>
         </div>
     )
 }
