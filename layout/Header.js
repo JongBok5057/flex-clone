@@ -31,18 +31,17 @@ const Header = () => {
     return (
         <div>
             <HeaderDiv>
-                <div className="headerspace">        
-                    
-                        <div classname="navspace">
-                <NavDiv>
-                        <div>기능소개</div>
-                        <div>가격정책</div>
-                        <div>비대면 바우처</div>
-                        <div>블로그</div>
-                        <div>로그인</div>
-                </NavDiv>    
+                <div>           
+                    <div>
+                        <NavDiv>
+                            <div>기능소개</div>
+                            <div>가격정책</div>
+                            <div>비대면 바우처</div>
+                            <div>블로그</div>
+                            <div>로그인</div>
+                        </NavDiv>    
+                    </div>
                 </div>
-            </div>
             </HeaderDiv> 
         </div>
     )
