@@ -1,10 +1,9 @@
+import styled from 'styled-components';
+
 const Footer = () => {
-    return(
+    return (
         <div>
-            <div className="footerspace">
-                <div className="footerlogo"></div>
-                <div className="footernav"></div>
-            </div>
+            
         </div>
     )
 }
