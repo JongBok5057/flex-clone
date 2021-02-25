@@ -56,106 +56,26 @@ const Word = styled.div `
     }
  `;
 
- const Button2_3Space = styled.div`
+const ButtonArea = styled.div `
     div {
-        flex-direction: column;
-        margin-top: 30px;
+        
         display: flex;
         align-items: center;
         font-size: 14px;
+        ont-family: -apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,Noto Sans Korean,sans-serif;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
     }
- `;
+`;
 
- const Button2Space = styled.div `
+const Button1Area = styled.div `
     button {
-        cursor: pointer;
-        overflow: hidden;
-        color: rgb(0, 112, 209);
-        height: 45px;
-        border-radius: 24px;
-        margin-bottom: 16px;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: rgba(0, 112, 209, 0.07);
-        display: inline-flex;
-        position: relative;
-        font-size: 14px;
-        box-sizing: border-box;
-        font-weight: 700;
-        -webkit-box-align: center;
-        align-items: center;
-        flex-shrink: 0;
-        -webkit-box-pack: center;
-        justify-content: center;
-        vertical-align: middle;
-        border: none;
-        outline: none;
-        margin: 0;
-        padding: 0;
-    }
- `;
+        
 
- const Button3Space = styled.div `
-    button {
-        cursor: pointer;
-        overflow: hidden;
-        color: rgb(255, 255, 255);
-        height: 45px;
-        border-radius: 24px;
-        padding-left: 16px;
-        padding-right: 16px;
-        background-color: rgb(0, 0, 0);
-        display: inline-flex;
-        position: relative;
-        font-size: 14px;
-        box-sizing: border-box;
-        font-weight: 700;
-        -webkit-box-align: center;
-        align-items: center;
-        flex-shrink: 0;
-        -webkit-box-pack: center;
-        justify-content: center;
-        box-shadow: rgb(0 0 0 / 4%) 0px 1px 3px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px inset;
-        vertical-align: middle;
-        border: none;
-        outline: none;
-        margin: 0;
-        padding: 0;
     }
- `;
-
- const Button2 = styled.div `
-    button {
-        display: flex;
-        align-items: center;
-        color: rgb(0, 112, 209);
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: normal;
-        word-spacing: normal;
-        text-transform: none;
-        text-indent: 0px;
-        text-shadow: none;
-        text-align: center;
-        font: 400 13.3333px Arial;
-    }
- `;
-
- const Button3 = styled.div `
-    button {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        font-weight: 700;
-        letter-spacing: normal;
-        word-spacing: normal;
-        text-transform: none;
-        text-indent: 0px;
-        text-shadow: none;
-        text-align: center;
-        font: 400 13.3333px Arial;
-    }
- `;
+`;
 
  const Word2 = styled.div `
     div {
@@ -211,7 +131,6 @@ const Intro = () => {
                             <span>지금 보러가기</span>
                         </div>
                     </button>
-                    
                     </Word>
                 </div>
                 </Intro2>
@@ -225,32 +144,26 @@ const Intro = () => {
                     "지금 flex를 시작하고 인사관리가 아닌 사람과 회사의 성장에 집중하세요."
                 </h3>
                 </H3>
-                <Button2_3Space>
+                <ButtonArea>
                 <div>
-                    <Button2Space>
+                    
                     <button>
-                        <Button2>
                         <div>
                             <Word2>
                             <div>90% 할인 받으려면?</div>
                             </Word2>
                         </div>
-                        </Button2>
                     </button>
-                    </Button2Space>
-                    <Button3Space>
+                    
                     <button>
-                        <Button3>
                         <div>
                             <Word3>
                             <div>무료체험 신청하기</div>
                             </Word3>
                         </div>
-                        </Button3>
                     </button>
-                    </Button3Space>
                 </div>
-                </Button2_3Space>
+                </ButtonArea>
             </section>
             </Intro1>
         </div>
